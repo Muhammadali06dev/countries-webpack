@@ -38,7 +38,6 @@ export const createCountryInfo = (country) => {
    const nativeName = Object.values(name.nativeName)[0].official
    const currentcy = Object.values(currencies)[0].name
    const language = Object.values(languages)
-   console.log(currentcy)
 
    countryInfo.innerHTML = `
    <img class="country-info__img" src="${flags.svg}" alt="germany-flag" width="560"

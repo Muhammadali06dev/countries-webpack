@@ -4,7 +4,6 @@ searchFormEl.search.addEventListener("input", () => {
    const searchValue = searchFormEl.search.value.toLowerCase()
    const cards = document.querySelectorAll(".cards__item")
    const cardsTitle = document.querySelectorAll(".cards__title")
-   console.log(cards)
    cardsTitle.forEach(((title, i) => {
       if (title.textContent.toLowerCase().includes(searchValue)) {
          cards[i].style.display = "block"

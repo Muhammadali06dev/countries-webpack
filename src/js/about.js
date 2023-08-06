@@ -14,5 +14,5 @@ getData(countryAPI)
       createCountryInfo(data[0])
    })
    .catch(err => {
-      console(err.message)
+      console.log(err.message)
    })
